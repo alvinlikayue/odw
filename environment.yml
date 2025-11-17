@@ -14,7 +14,7 @@ dependencies:
 - jupyter=1.1.1
 # Specifics
 - astropy=7.0.1
-- bilby=2.4.0
+- bilby=2.6.0
 - corner=2.2.3
 - dynesty=2.1.5
 - gwosc=0.7.1
