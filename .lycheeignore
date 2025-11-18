@@ -33,3 +33,9 @@ https://doi.org/10.1088/0264-9381/21/20/024
 # It returns 403 from GitHub actions
 # We believe it's because Thinkific (which eventually answers) blocks GitHub IPs
 https://learn.gwosc.org
+
+# PyCBC documentation is not versionned so some links go out of date
+# but we can't always use the latest version so we ignore them.
+# Remove once https://github.com/gwastro/pycbc/pull/4778 is merged
+https://pycbc.org/pycbc/latest/html/#library-examples-and-interactive-tutorials
+https://pycbc.org/pycbc/latest/html/pycbc.html#pycbc.detector.Detector
