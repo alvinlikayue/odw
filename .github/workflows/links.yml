@@ -16,17 +16,28 @@ concurrency:
 jobs:
   check-links:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
 
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Installing requirements
+        run: |
+          pip install -r requirements.txt
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
+          lycheeVersion: "latest"
           args: |
             --no-progress
             --include-fragments
             -E
             --require-https
+            --preprocess "./tests/lychee_preprocess.sh"
             './**/*.ipynb' './**/*.md'
 
       - name: Provide helpful failure message

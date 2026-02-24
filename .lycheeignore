@@ -1,23 +1,8 @@
-# Issues with links in Jupyter Notebook files.
-# Remove once https://github.com/lycheeverse/lychee/issues/1659 is resolved.
-https://dcc.ligo.org/public/0182/T2200137/001/O3bPE_downsampled.tar.gz/n
-https://dcc.ligo.org/public/0157/P1800370/005/GW150914_GWTC-1.hdf5/n
-https://raw.githubusercontent.com/gw-odw/odw/main/Tutorials/Day_3/toy_model.csv/n
-https://github.com/gw-odw/odw/raw/main/Tutorials/Day_2/Data/PyCBC_T2_1.gwf/n
-https://github.com/gw-odw/odw/raw/main/Tutorials/Day_2/Data/PyCBC_T2_2.gwf/n
-https://github.com/gw-odw/odw/raw/main/Tutorials/Day_2/Data/PyCBC_T2_0.gwf/n
-https://github.com/gw-odw/odw/raw/main/Tutorials/Day_2/Data/PyCBC_T3_0.gwf/n
-https://lscsoft.docs.ligo.org/bilby/examples.html/n
-https://pycbc.org/pycbc/latest/html/noise.html/n
-https://raw.githubusercontent.com/gw-odw/odw/main/Tutorials/Day_3/toy_model.csv/n
-https://dcc.ligo.org/public/0182/T2200137/001/O3bPE_downsampled.tar.gz/
-https://dcc.ligo.org/LIGO-P1800370/public/n
-
 # Some python cells use format string to forge URL.
 # The `{` (resp. `}`) there get translated to `%7B`(resp. `%7D`).
 # This is hard to fix with lychee since it can't understand placeholders.
 # So this is another valid exclude.
-https://github.com/gw-odw/odw/raw/main/Tutorials/Day_2/%7B%7D/
+https://github.com/gw-odw/odw/raw/main/Tutorials/Day_2/%7B%7D
 https://dcc.ligo.org/LIGO-P1800370/public/%7Blabel%7D_GWTC-1.hdf5
 
 # Exclude all file-links. Workaround until https://github.com/lycheeverse/lychee/issues/1646 is resolved
