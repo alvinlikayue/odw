@@ -55,6 +55,8 @@ Signal in colored, Gaussian noise.
 1. What is the merger time of this signal?
 2. What is the matched-filter SNR of this signal?
 
+**Note:** it's not needed to use bilby for this challenge.
+
 ## Challenge 4 (8 points) -- Advanced
 
 * Use the data file `challenge3.gwf` with channels `H1:CHALLENGE3` and `L1:CHALLENGE3`.
