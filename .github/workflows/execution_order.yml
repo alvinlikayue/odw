@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.11]
-        topic: ["Accessing_Open_Data", "Signal_Processing", "Searches", "Parameter_Estimation"]
+        topic: ["Accessing_Open_Data", "Generating_Waveforms", "Signal_Processing", "Searches", "Parameter_Estimation"]
 
     steps:
     - run: |
