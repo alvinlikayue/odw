@@ -28,6 +28,6 @@ dependencies:
 - gwpopulation=0.10.0
 - nestle=0.2.0
 # Development dependencies
-- codespell=2.3.0
-- lychee=0.22.0
-name: odw-py311
+- codespell=2.4.2
+- lychee=0.23.0
+name: odw-py312
