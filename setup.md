@@ -56,7 +56,7 @@ This will build a Docker image (if not already present) with the dependency file
 <img src='./share/video-icon.png' width=18 /> [Video instructions](https://drive.google.com/file/d/1YZcaY-35JiHXOH4unRe5ECSeDl8IZFZy/view?usp=sharing)
 
 We provide a [Conda](https://www.anaconda.com/) environment with all the required packages.
-This guide will walk you through the configuration of this environment (named `odw-py311`).
+This guide will walk you through the configuration of this environment (named `odw-py312`).
 
 1. Install Miniconda by following the installation instructions for your operating system:
 
@@ -76,7 +76,7 @@ This guide will walk you through the configuration of this environment (named `o
 
 4. Activate the environment.
 
-   `conda activate odw-py311`
+   `conda activate odw-py312`
 
 5. Clone the workshop git repo
 
@@ -88,11 +88,11 @@ This guide will walk you through the configuration of this environment (named `o
 
 7. Build a custom [jupyter kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) using the command
 
-   `python -m ipykernel install --user --name odw-py311 --display-name "Python (odw-py311)"`
+   `python -m ipykernel install --user --name odw-py312 --display-name "Python (odw-py312)"`
 
 8. Start the Jupyter notebook server
 
-   `jupyter notebook` and select the kernel `odw-py311` if this is not done by default.
+   `jupyter notebook` and select the kernel `odw-py312` if this is not done by default.
 
 ## Option 4: Linux install on Windows with dedicated app (Windows 10 or 11)
 

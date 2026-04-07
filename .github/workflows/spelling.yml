@@ -61,5 +61,5 @@ jobs:
         conda env create -f environment.yml
     - name: Spellchecking other files
       run: |
-        conda activate odw-py311
+        conda activate odw-py312
         codespell -I .dictionary.txt --skip="*.ipynb" .
