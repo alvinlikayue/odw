@@ -20,11 +20,11 @@ jobs:
     strategy:
       matrix:
         python-version: [3.11]
-        day: [1, 2, 3]
+        topic: ["Accessing_Open_Data", "Signal_Processing", "Searches", "Parameter_Estimation"]
 
     steps:
     - run: |
-        echo "Testing Day ${{ matrix.day }} Tutorials on python ${{ matrix.python-version }}"
+        echo "Testing ${{ matrix.topic }} Tutorials on python ${{ matrix.python-version }}"
     - uses: actions/checkout@v4
     - uses: actions/setup-python@v6
       with:
@@ -34,7 +34,7 @@ jobs:
         pip install -r requirements.txt
     - name: Test notebooks execution
       run: |
-        for file in Tutorials/Day_${{ matrix.day }}/*ipynb; do
+        for file in Tutorials/${{ matrix.topic }}/*ipynb; do
             echo "Checking ${file}";
             if ! ./tests/check_run.sh "${file}"; then
                 echo "::error file=${file},title=Error";

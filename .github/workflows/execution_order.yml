@@ -16,15 +16,15 @@ jobs:
     strategy:
       matrix:
         python-version: [3.11]
-        day: [1, 2, 3]
+        topic: ["Accessing_Open_Data", "Signal_Processing", "Searches", "Parameter_Estimation"]
 
     steps:
     - run: |
-        echo "Checking Day ${{ matrix.day }} Tutorials on python ${{ matrix.python-version }}"
+        echo "Checking Day ${{ matrix.topic }} Tutorials on python ${{ matrix.python-version }}"
     - uses: actions/checkout@v4
     - name: Check execution order of notebooks
       run: |
-        for file in Tutorials/Day_${{ matrix.day }}/*ipynb; do
+        for file in Tutorials/${{ matrix.topic }}/*ipynb; do
             echo "Checking ${file}";
             if ! ./tests/check_execution_order.py -e "${file}"; then
                 echo "::error file=${file},title=Error";
