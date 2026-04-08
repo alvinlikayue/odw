@@ -124,7 +124,7 @@ Alternatively, you may also install the required dependency with `pip`. We highl
 
    `jupyter notebook`
 
-Note: this repository contains a `pyproject.toml` file, and should thus be compatible with other common python package managers (hatch, poetry, uv...). This is however untested; in case of doubt, we advise users to follow the instructions.
+Note: this repository contains a `pyproject.toml` file, and should thus be compatible with other common python package managers (hatch, poetry, uv...). This is however untested; in case of doubt, we advise users to follow the instructions above.
 
 ## Option 5: Linux install on Windows with dedicated app (Windows 10 or 11)
 
