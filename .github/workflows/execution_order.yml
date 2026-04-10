@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.11]
+        python-version: [3.12]
         topic: ["01_Accessing_Open_Data", "02_Generating_Waveforms", "03_Signal_Processing", "04_Searches", "05_Parameter_Estimation"]
 
     steps:

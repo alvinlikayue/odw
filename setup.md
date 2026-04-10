@@ -7,7 +7,7 @@ If you are not familiar with Jupyter notebooks, google one of the many introduct
 
 The various options are listed in order of difficulty. However, whenever possible, we recommend the participants with some experience with Python environments to follow [Option 3](#option3), installing the requirements on their laptops and executing the tutorial notebooks from there. This has the advantage of avoiding any possible issue with online servers, including unstable internet connection or uneven memory and server availability, both on Colab and on MyBinder.
 
-This workshop uses [Python version 3.11](https://www.python.org/downloads/release/python-3110/).
+This workshop uses [Python version 3.12](https://www.python.org/downloads/release/python-3120/).
 
 ## Option 1: Google Colab
 
