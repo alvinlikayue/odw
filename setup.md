@@ -9,13 +9,13 @@ The various options are listed in order of difficulty. However, whenever possibl
 
 This workshop uses [Python version 3.12](https://www.python.org/downloads/release/python-3120/).
 
-## Option 1: Google Colab
+## Option 1: Google Colab (SUGGESTED)
 
 🟢 Easy (No software installation; Works for any OS)
 
 <img src='./share/video-icon.png' width=18 /> [Video instructions](https://drive.google.com/file/d/17jYkGoVIavJa1B_Fbi6xK2D3jCFQT-A7/view?usp=sharing)
 
-1. To run the notebooks, click the badge:  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gw-odw/odw/blob/main/)
+1. To run the notebooks, click the badge:  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alvinlikayue/odw/blob/utokyo-2026-spring-odw)
 
 2. Double click the notebook of your choice
 
